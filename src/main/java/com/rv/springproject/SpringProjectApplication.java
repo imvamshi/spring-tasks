@@ -7,7 +7,7 @@ public class SpringProjectApplication {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        MyIDE ide = context.getBean("javaIDE", MyIDE.class);
+        MyIDE ide = context.getBean("ide", MyIDE.class);
         System.out.println(ide.loadLanguageTools());
 
         context.close();
