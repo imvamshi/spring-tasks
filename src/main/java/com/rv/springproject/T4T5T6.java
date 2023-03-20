@@ -9,10 +9,10 @@ import java.util.Map;
 
 @SpringBootApplication
 @RestController
-public class T4 {
+public class T4T5T6 {
 
     public static void main(String[] args) {
-        SpringApplication.run(T4.class, args);
+        SpringApplication.run(T4T5T6.class, args);
         System.out.println("\n===========================================================================================");
         System.out.println("Hello Spring boot application is Up! The server also should be up! test the localhost URLs.");
         System.out.println("===========================================================================================");
